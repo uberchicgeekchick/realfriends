@@ -1,0 +1,5 @@
+SHELL=/bin/tcsh
+*/3	*	*	*	*	if( -f "${HOME}/.xsession-errors" ) ex -E -n -X --noplugin '+1,$d' '+wq!' "${HOME}/.xsession-errors";
+
+SHELL=/bin/bash
+*/3	*	*	*	*	if test -f "${HOME}/.xsession-errors"; then ex -E -n -X --noplugin '+1,$d' '+wq!' "${HOME}/.xsession-errors"; fi

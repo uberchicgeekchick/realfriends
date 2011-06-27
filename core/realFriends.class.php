@@ -112,11 +112,9 @@
 		}//end 'decode' method
 		
 		function cleanUp() {
-			
 		}//end 'cleanUp' method.
 		
 		function __destruct() {
-			
 		}//end '__destruct' method
 	}
 
